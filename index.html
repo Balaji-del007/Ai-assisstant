@@ -1,140 +1,756 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI & DS Portfolio</title>
+
+    <title>Balaji | AI & Data Science</title>
+
+    <meta name="description"
+          content="AI & Data Science student portfolio showcasing projects, skills and experience.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <nav>
-            <h2>AI & <span> DS</span></h2>
+<!-- Background -->
+<div class="background">
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+    <div class="blob blob3"></div>
+</div>
 
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li
-                                                  
-            </ul>
-        </nav>
-    </header>
+<!-- NAVBAR -->
 
-    <!-- Home -->
-    <section id="home" class="hero">
-        <div>
-            <p class="small-title">WELCOME TO MY 
-                PORTFOLIO</p>
+<header class="navbar">
 
-            <h1>Hello, I'm <span>Navaneethan</span></h1>
+    <div class="logo">
+        <span>&lt;</span>Balaji<span>/&gt;</span>
+    </div>
 
-            <h2>Artificial Intelligence & Data Science Student</h2>
+    <nav id="navMenu">
+
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+    <div class="nav-actions">
+
+        <button id="themeBtn">
+            <i class="fas fa-moon"></i>
+        </button>
+
+        <button id="menuBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <div class="status">
+            <span></span>
+            Available for Projects
+        </div>
+
+        <p class="hello">HELLO, I'M</p>
+
+        <h1>
+            Balaji
+        </h1>
+
+        <h2>
+            <span id="typing"></span>
+        </h2>
+
+        <p class="hero-description">
+
+            I build intelligent digital solutions using
+            Artificial Intelligence, Machine Learning,
+            Data Science and modern Web Technologies.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="btn primary">
+                Explore Projects
+                <i class="fas fa-arrow-right"></i>
+            </a>
+
+            <a href="#contact" class="btn secondary">
+                Contact Me
+            </a>
+
+        </div>
+
+        <div class="socials">
+
+            <a href="#">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-card">
+
+        <div class="code-header">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+        <div class="code">
+
+            <p><span class="purple">const</span> developer = {</p>
 
             <p>
-                I create innovative projects using Artificial Intelligence,
-                Data Science and Web Technologies.
-            </p>
-
-            <a href="#projects" class="btn">View Projects</a>
-        </div>
-    </section>
-
-    <!-- About -->
-    <section id="about">
-        <h2 class="section-title">About Me</h2>
-
-        <div class="about-box">
-            <p>
-                I am an Artificial Intelligence and Data Science student
-                interested in developing modern software applications,
-                AI projects and innovative web solutions. 
+                &nbsp;&nbsp;name:
+                <span class="green">"Balaji"</span>,
             </p>
 
             <p>
-                My goal is to combine technology and creativity to solve
-                real-world problems. 
+                &nbsp;&nbsp;role:
+                <span class="green">"AI Developer"</span>,
             </p>
-        </div>
-    </section>
 
-    <!-- Skills -->
-    <section id="skills">
-        <h2 class="section-title">My Skills</h2>
+            <p>
+                &nbsp;&nbsp;skills: [
+            </p>
 
-        <div class="skills-container">
-            <div class="skill">HTML</div>
-            <div class="skill">CSS</div>
-            <div class="skill">JavaScript</div>
-            <div class="skill">Python</div>
-            <div class="skill">Machine Learning</div>
-            <div class="skill">Data Science</div>
-        </div>
-    </section>
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="orange">"Python"</span>,
+            </p>
 
-    <!-- Projects -->
-    <section id="projects">
-        <h2 class="section-title">My Projects</h2>
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="orange">"AI"</span>,
+            </p>
 
-        <div class="project-container">
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="orange">"Data Science"</span>
+            </p>
 
-            <div class="project-card">
-                <h3>AI Renewable Energy</h3>
-                <p>
-                    An AI-based concept for predicting and optimizing
-                    renewable energy production.
-                </p>
-                <button>View Project</button>
-            </div>
+            <p>&nbsp;&nbsp;]</p>
 
-            <div class="project-card">
-                <h3>Civic Issue Reporting</h3>
-                <p>
-                    A smart platform for reporting and tracking
-                    public problems using technology.
-                </p>
-                <button>View Project</button>
-            </div>
-
-            <div class="project-card">
-                <h3>Smart E-Commerce</h3>
-                <p>
-                    A modern e-commerce website with product browsing,
-                    cart and interactive features.
-                </p>
-                <button>View my Project</button>
-            </div>
+            <p>};</p>
 
         </div>
-    </section>
 
-    <!-- Contact -->
-    <section id="contact">
-        <h2 class="section-title">Contact Me</h2>
+    </div>
+
+</section>
+
+
+<!-- STATS -->
+
+<section class="stats">
+
+    <div class="stat">
+
+        <h3 data-target="10">0</h3>
+        <p>Projects</p>
+
+    </div>
+
+    <div class="stat">
+
+        <h3 data-target="8">0</h3>
+        <p>Technologies</p>
+
+    </div>
+
+    <div class="stat">
+
+        <h3 data-target="5">0</h3>
+        <p>Certifications</p>
+
+    </div>
+
+    <div class="stat">
+
+        <h3 data-target="100">0</h3>
+        <p>Learning %</p>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about" class="section reveal">
+
+    <div class="section-heading">
+
+        <span>01</span>
+
+        <h2>About Me</h2>
+
+    </div>
+
+    <div class="about-grid">
+
+        <div class="about-text">
+
+            <h3>
+                Turning ideas into
+                <span>intelligent solutions.</span>
+            </h3>
+
+            <p>
+                I am an Artificial Intelligence and Data Science
+                student passionate about creating technology
+                that solves real-world problems.
+            </p>
+
+            <p>
+                My interests include Machine Learning,
+                Artificial Intelligence, Data Analytics,
+                Web Development and innovative software systems.
+            </p>
+
+            <div class="about-points">
+
+                <div>
+                    <i class="fas fa-brain"></i>
+                    <span>AI & Machine Learning</span>
+                </div>
+
+                <div>
+                    <i class="fas fa-chart-line"></i>
+                    <span>Data Science</span>
+                </div>
+
+                <div>
+                    <i class="fas fa-code"></i>
+                    <span>Web Development</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="about-card">
+
+            <div class="circle">
+
+                <i class="fas fa-microchip"></i>
+
+            </div>
+
+            <h3>AI & DS</h3>
+
+            <p>
+                Creating the future with data
+                and intelligent systems.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SKILLS -->
+
+<section id="skills" class="section reveal">
+
+    <div class="section-heading">
+
+        <span>02</span>
+
+        <h2>Technical Skills</h2>
+
+    </div>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+
+            <div class="skill-title">
+
+                <i class="fab fa-python"></i>
+
+                <span>Python</span>
+
+                <strong>90%</strong>
+
+            </div>
+
+            <div class="progress">
+                <div style="width:90%"></div>
+            </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <div class="skill-title">
+
+                <i class="fab fa-html5"></i>
+
+                <span>HTML</span>
+
+                <strong>95%</strong>
+
+            </div>
+
+            <div class="progress">
+                <div style="width:95%"></div>
+            </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <div class="skill-title">
+
+                <i class="fab fa-css3-alt"></i>
+
+                <span>CSS</span>
+
+                <strong>90%</strong>
+
+            </div>
+
+            <div class="progress">
+                <div style="width:90%"></div>
+            </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <div class="skill-title">
+
+                <i class="fab fa-js"></i>
+
+                <span>JavaScript</span>
+
+                <strong>80%</strong>
+
+            </div>
+
+            <div class="progress">
+                <div style="width:80%"></div>
+            </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <div class="skill-title">
+
+                <i class="fas fa-robot"></i>
+
+                <span>Machine Learning</span>
+
+                <strong>85%</strong>
+
+            </div>
+
+            <div class="progress">
+                <div style="width:85%"></div>
+            </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <div class="skill-title">
+
+                <i class="fas fa-database"></i>
+
+                <span>Data Science</span>
+
+                <strong>82%</strong>
+
+            </div>
+
+            <div class="progress">
+                <div style="width:82%"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PROJECTS -->
+
+<section id="projects" class="section reveal">
+
+    <div class="section-heading">
+
+        <span>03</span>
+
+        <h2>Featured Projects</h2>
+
+    </div>
+
+    <div class="filter-buttons">
+
+        <button class="filter active" data-filter="all">
+            All
+        </button>
+
+        <button class="filter" data-filter="ai">
+            AI
+        </button>
+
+        <button class="filter" data-filter="web">
+            Web
+        </button>
+
+        <button class="filter" data-filter="data">
+            Data
+        </button>
+
+    </div>
+
+
+    <div class="projects-grid">
+
+        <article class="project-card" data-category="ai">
+
+            <div class="project-icon">
+                <i class="fas fa-solar-panel"></i>
+            </div>
+
+            <span class="tag">AI</span>
+
+            <h3>AI Renewable Energy</h3>
+
+            <p>
+                Intelligent system for predicting
+                renewable energy production using
+                AI and data analysis.
+            </p>
+
+            <div class="tech">
+
+                <span>Python</span>
+                <span>ML</span>
+                <span>AI</span>
+
+            </div>
+
+            <button
+                class="view-project"
+                data-title="AI Renewable Energy"
+                data-description="An intelligent renewable energy prediction concept using machine learning and data analysis.">
+
+                View Project
+
+                <i class="fas fa-arrow-up-right-from-square"></i>
+
+            </button>
+
+        </article>
+
+
+        <article class="project-card" data-category="web">
+
+            <div class="project-icon">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+
+            <span class="tag">WEB</span>
+
+            <h3>Smart E-Commerce</h3>
+
+            <p>
+                Modern responsive shopping platform
+                with interactive product management
+                and user-friendly interface.
+            </p>
+
+            <div class="tech">
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JS</span>
+
+            </div>
+
+            <button
+                class="view-project"
+                data-title="Smart E-Commerce"
+                data-description="A responsive e-commerce interface with product cards, filtering, cart interaction and modern UI.">
+
+                View Project
+
+                <i class="fas fa-arrow-up-right-from-square"></i>
+
+            </button>
+
+        </article>
+
+
+        <article class="project-card" data-category="data">
+
+            <div class="project-icon">
+                <i class="fas fa-chart-pie"></i>
+            </div>
+
+            <span class="tag">DATA</span>
+
+            <h3>Data Analytics Dashboard</h3>
+
+            <p>
+                Interactive dashboard designed to
+                visualize important datasets and
+                generate useful insights.
+            </p>
+
+            <div class="tech">
+
+                <span>Python</span>
+                <span>Data</span>
+                <span>Charts</span>
+
+            </div>
+
+            <button
+                class="view-project"
+                data-title="Data Analytics Dashboard"
+                data-description="An interactive data visualization dashboard designed to turn datasets into understandable insights.">
+
+                View Project
+
+                <i class="fas fa-arrow-up-right-from-square"></i>
+
+            </button>
+
+        </article>
+
+
+        <article class="project-card" data-category="ai">
+
+            <div class="project-icon">
+                <i class="fas fa-city"></i>
+            </div>
+
+            <span class="tag">AI</span>
+
+            <h3>Civic Issue Detection</h3>
+
+            <p>
+                AI-assisted platform for identifying,
+                reporting and tracking civic problems.
+            </p>
+
+            <div class="tech">
+
+                <span>AI</span>
+                <span>Python</span>
+                <span>Web</span>
+
+            </div>
+
+            <button
+                class="view-project"
+                data-title="Civic Issue Detection"
+                data-description="A smart civic platform concept for reporting and managing public issues using intelligent technologies.">
+
+                View Project
+
+                <i class="fas fa-arrow-up-right-from-square"></i>
+
+            </button>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="section contact-section reveal">
+
+    <div class="section-heading">
+
+        <span>04</span>
+
+        <h2>Let's Connect</h2>
+
+    </div>
+
+    <div class="contact-grid">
+
+        <div class="contact-info">
+
+            <h3>
+                Have an idea?
+                <span>Let's build it.</span>
+            </h3>
+
+            <p>
+                I'm always interested in working on
+                innovative projects and learning
+                new technologies.
+            </p>
+
+            <div class="contact-item">
+
+                <i class="fas fa-envelope"></i>
+
+                <div>
+                    <small>Email</small>
+                    <p>yourmail@example.com</p>
+                </div>
+
+            </div>
+
+            <div class="contact-item">
+
+                <i class="fas fa-location-dot"></i>
+
+                <div>
+                    <small>Location</small>
+                    <p>Tamil Nadu, India</p>
+                </div>
+
+            </div>
+
+        </div>
+
 
         <form id="contactForm">
 
-            <input type="text" placeholder="Your Name" required>
+            <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                required>
 
-            <input type="email" placeholder="Your Email" required>
+            <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required>
 
-            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <textarea
+                id="message"
+                rows="6"
+                placeholder="Your Message"
+                required></textarea>
 
-            <button type="submit">Send Message</button>
+            <button class="btn primary" type="submit">
+
+                Send Message
+
+                <i class="fas fa-paper-plane"></i>
+
+            </button>
 
         </form>
-    </section>
 
-    <footer>
-        <p>© 2026 Balaji | AI & Data Science</p>
-    </footer>
+    </div>
 
-    <script src="script.js"></script>
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="logo">
+        <span>&lt;</span>Balaji<span>/&gt;</span>
+    </div>
+
+    <p>
+        Designed & Built with HTML, CSS & JavaScript
+    </p>
+
+    <p>
+        © 2026 Balaji. All rights reserved.
+    </p>
+
+</footer>
+
+
+<!-- MODAL -->
+
+<div id="projectModal" class="modal">
+
+    <div class="modal-content">
+
+        <button id="closeModal" class="close">
+            &times;
+        </button>
+
+        <i class="fas fa-rocket modal-icon"></i>
+
+        <h2 id="modalTitle"></h2>
+
+        <p id="modalDescription"></p>
+
+        <button class="btn primary" id="modalClose">
+            Close
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- BACK TO TOP -->
+
+<button id="topBtn">
+
+    <i class="fas fa-arrow-up"></i>
+
+</button>
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
-```
